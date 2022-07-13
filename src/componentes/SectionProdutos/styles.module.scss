@@ -1,0 +1,36 @@
+.sectionOfertasDoDia{
+    margin-top:1rem;
+    padding:0 0.5rem;
+    color:var(--black);
+    >h2{
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+    >article{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        >a{
+            width:49%;
+            margin-bottom: 1rem;
+            >img{
+                max-width: 100%;
+            }
+            >p{
+                &:first-of-type{
+                    line-height: 25px;
+                    height:50px;
+                    overflow: hidden;
+                }
+                &:nth-of-type(2){
+                    text-decoration: line-through;
+                    font-size: 0.8rem;
+                }
+                &:nth-of-type(3){
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

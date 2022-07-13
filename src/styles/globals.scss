@@ -1,0 +1,28 @@
+:root{
+  --black:rgb(65, 65, 65);
+  --blue:rgb(45, 132, 247);
+  --white-light:#f0f0f0;
+  --white:white;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
